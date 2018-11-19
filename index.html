@@ -1,0 +1,102 @@
+<DOCTYPE html>
+	<html>
+	<head>
+		<title>PRINCESAS PEREZA</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<style type="text/css">
+		body{
+			background-image: url("images/fondo.jpeg");
+		}
+		@font-face{
+			font-family: "x";
+			src: url("fonts/Hastoler Regular.otf") ;
+		}
+			#font_segura{
+				background: rgba(100, 200, 0, 0.5);
+				font-family: "Impact", "Charcoral", sans-serif;
+			}
+			#font_local{
+				font-family: "x"
+			}
+			#font_servidor{
+				font-family: 'Nunito', sans-serif;
+			}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		span{
+			color: MediumSeaGreen;
+			font-size: 40px;
+		}
+		p{
+		color: gray;
+		font-size: 35px;
+		}
+		img{
+			display: none;
+			position: absolute;
+		}
+		#a:hover img{
+			display: block;
+			width: 30%;
+			float: left;
+			position: left;
+		}
+		#aa:hover img{
+			display: block;
+			width: 20%;
+		}
+		#b:hover img{
+			display: block;
+			width: 30%;
+			float: left;
+			position: left;
+		}
+		#bb:hover img{
+			display: block;
+			width: 20%;
+		}
+		#c:hover img{
+			display: block;
+			width: 30%;
+			float: left;
+			position: left;
+		}
+		#cc:hover img{
+			display: block;
+			width: 20%;
+		}
+		#sonrisa{
+			top: 60px;
+			display: none;
+			right: 100px;
+		}
+		#calada{
+			top: 100px;
+			display: none;
+			right: 100px;
+		}
+		#pelicula{
+			top: 140px;
+			display: none;
+			right: 100px;
+		}
+		</style>
+	</head>
+	<body>
+		<p id="font_segura">PRINCESAS PEREZA</P>
+		<div id="a">
+			<p id="font_servidor">Sigo buscando una <span id="aa">sonrisa</span> de repente en un <span>bar</span>.</p>
+			<img id="sonrisa" src="images/sonrisa.jpg">
+		</div>
+		<div id="b">
+			<p id="font_local">una <span id="bb">calada</span> de algo que me pueda colocar,</p>
+			<img id="calada" src="images/calada.jpg">
+		</div>
+		<div id="c">
+			<p id="font_servidor">una <span id="cc">película</span> que consiga hacerme <span>llorar</span>.</p>
+			<img id="pelicula" src="images/pelicula.jpg">
+		</div>
+		</body>
